@@ -73,7 +73,7 @@ export namespace Sidebar {
             <Generation.Image.Count.Slider />
           </div>
         </App.Sidebar.Section>
-        {settingsOpen && <Advanced id={id} />}
+
       </>
     );
   }
