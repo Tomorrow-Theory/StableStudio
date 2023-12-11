@@ -14,7 +14,7 @@ export function BottomBar() {
 
   useClickAway(tabRef, () => setOpen(false));
 
-  if (!location.pathname.startsWith("/generate")) return null;
+  if (!location.pathname.startsWith("/")) return null;
   return (
     <motion.div
       layoutId="bottom-bar-parent"

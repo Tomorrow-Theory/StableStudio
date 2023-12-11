@@ -15,12 +15,12 @@ export function Sidebar() {
     <App.Sidebar.Tab.Set
       defaultActive
       name="Generate"
-      route="/generate"
+      route="/"
       position="left"
       index={0}
       icon={Theme.Icon.Generate}
       enabled={
-        location.pathname.startsWith("/generate") ||
+        location.pathname.startsWith("/") ||
         location.pathname.startsWith("/edit")
       }
       bottom={

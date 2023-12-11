@@ -62,7 +62,7 @@ export function Settings() {
       <div className="h-full justify-between overflow-y-auto bg-zinc-900 px-5 py-6">
         <div className="mx-auto flex max-w-[60rem] flex-col gap-5">
           {!isMissingRequiredSetting && (
-            <Link to="/generate" className="w-fit">
+            <Link to="/" className="w-fit">
               <div className="my-5 -ml-1 flex gap-1 text-lg opacity-50 hover:opacity-100">
                 <Theme.Icon.ChevronLeft className="h-6 w-6" />
                 Generate

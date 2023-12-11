@@ -62,7 +62,7 @@ export function Sidebar() {
         icon={Theme.Icon.Edit}
         bottom={bottom}
         enabled={
-          location.pathname.startsWith("/generate") ||
+          location.pathname.startsWith("/") ||
           location.pathname.startsWith("/edit")
         }
         button={(props) => (
