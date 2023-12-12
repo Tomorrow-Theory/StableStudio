@@ -43,10 +43,6 @@ export namespace Router {
               element: <Editor />,
             },
             {
-              path: "/settings",
-              element: <Settings />,
-            },
-            {
               path: "*",
               element: <ReactRouter.Navigate to={`/`} replace />,
             },

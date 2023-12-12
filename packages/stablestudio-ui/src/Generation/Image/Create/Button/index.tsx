@@ -33,12 +33,11 @@ export function Button({
     <Theme.Button
       size="lg"
       color={noBrand ? "zinc" : "brand"}
-      icon={Theme.Icon.Dream}
       disabled={disabled || !isEnabled || !validated}
       onClick={onClick}
       {...props}
     >
-      {children ?? (!noTitle && <>Dream</>)}
+      {children ?? (!noTitle && <>Generate Images</>)}
     </Theme.Button>
   );
 }
